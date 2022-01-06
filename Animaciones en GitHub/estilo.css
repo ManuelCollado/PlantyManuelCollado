@@ -147,6 +147,9 @@ strong {
     color: white;
     background-color: black;
 }
-
+.padre {
+    background-image: linear-gradient(to left, red , yellow);
+   }
+   
 
 
