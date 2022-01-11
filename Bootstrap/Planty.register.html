@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./foto/favicon-32x32.png">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilo2.css">
+    <title>Planty</title>
+</head>
+<body class="container">
+    <main>
+        <br>
+        <br>
+        <h2>
+            Registrarse
+        </h2>
+        <br>
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+              <label for="validationCustom01" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="validationCustom01">
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom02" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="validationCustom02">
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustomUsername" class="form-label">Usuario</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                  Por favor elija un usuario.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom03" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="validationCustom03" required>
+              <div class="invalid-feedback">
+                Por favor elija una ciudad correcta.
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom04" class="form-label">Localidad</label>
+              <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">Belgrano</option>
+                <option>Nuñez</option>
+              </select>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom05" class="form-label">Código Postal</label>
+              <input type="text" class="form-control" id="validationCustom05" required>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Acepto términos y condiciones
+                </label>
+                <div class="invalid-feedback">
+                  Debes aceptar antes de continuar
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn" type="submit">Registrarme</button>
+            </div>
+          </form>
+    </main>
+    
+</body>
+</html>
