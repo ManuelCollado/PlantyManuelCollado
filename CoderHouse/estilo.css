@@ -7,11 +7,6 @@
 header {
     display: flex;
     flex-direction: row;
-    background-color: yellow;
-    grid-area: header;
-    display: flex;  
-    flex-direction: row; 
-    justify-content: space-between;
 }
 
 body {
@@ -28,13 +23,13 @@ strong {
     font-style: italic;
     margin: 10px;
     padding: 3px;
-    z-index: 20;
+    z-index: -1;
 }
 
 .menu {
     background-color: yellow;
     position: absolute;
-    width: 99%;
+    width: 100%;
     height: 70px;
     z-index: -2;
     top: 11px;
@@ -55,11 +50,6 @@ strong {
     color: black;
 }
 
-.bodyLogin {
-    background-color: rgb(196, 228, 230);
-    color: black;
-}
-
 .login {
     background-color: red;
     width: 80px;
@@ -69,11 +59,11 @@ strong {
     position: absolute;
     top: 10px;
     right: 10px;
-    z-index: 15;
+    z-index: -1;
 }
 
 .register {
-    background-color: goldenrod;
+    background-color: blue;
     width: 150px;
     height: 52px;
     margin: 10px;
@@ -94,7 +84,7 @@ strong {
     position: absolute;
     top: 10px;
     right: 260px;
-    z-index: 10;
+    z-index: -1;
 }
 
 .contacto {
@@ -106,7 +96,7 @@ strong {
     position: absolute;
     top: 10px;
     right: 400px;
-    z-index: 11;
+    z-index: -1;
 }
 
 .roadmap {
@@ -118,43 +108,13 @@ strong {
     position: absolute;
     top: 10px;
     right: 550px;
-    z-index: 13;
+    z-index: -1;
 }
 
 .intro {
     margin: 10px;
     padding: 10px;
 }
-.padre{
-    width: 99%;
-    height: 400px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 10px;
-    grid-template-areas: 
-        "header header header"
-        "main main main"
-        "footer footer footer"
-        ;
-}
-.main {
-    background-color: greenyellow;
-    grid-area: main;
-}
-.footer {
-    grid-area: footer;
-    color: white;
-    background-color: black;
-    text-align: center;
-}
 
-.contactenos {
-    text-align: center;
-  }
 
-.bodyContactenos  {
-    margin: 40px;
-    background-color: rgb(196, 228, 230);
-    color: black;
-}
+
