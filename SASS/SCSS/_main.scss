@@ -1,0 +1,24 @@
+.intro {
+    margin: 10px;
+    padding: 10px;
+}
+
+.main {
+    background-color: $verdeclaro;
+    grid-area: main;
+}
+
+.parrafoPpal {
+    color: brown;
+    font-size: 24px;
+    font-style: italic;
+    margin: 20px;
+    padding: 10px;
+    width: 500px;
+    height: 170px;
+    background-color: $verdeoscuro;
+}
+
+.foto {    
+    margin: 20px;
+}

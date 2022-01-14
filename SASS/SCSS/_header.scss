@@ -1,0 +1,26 @@
+*{
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    grid-area: header;
+    display: flex;  
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+strong {
+    background-color: $strong;
+}
+
+.titulo {
+    font-style: italic;
+    margin: 10px;
+    padding: 3px;
+    z-index: 20;
+}

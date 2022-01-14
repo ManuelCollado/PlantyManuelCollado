@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(124, 184, 124);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.padre{
+    width: 99%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    grid-template-areas: 
+        "header header header"
+        "main main main"
+        "footer footer footer"
+        ;
+}
+
+.register {
+    background-color: goldenrod;
+    width: 150px;
+    height: 52px;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 130px;
+    z-index: 1;
+}
+
+.equipo {
+    color: $oscuro;
+    width: 150px;
+    height: 52px;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    right: 260px;
+    z-index: 10;
+}
+
+.contacto {
+    color: $oscuro;
+    width: 150px;
+    height: 52px;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    right: 400px;
+    z-index: 11;
+}
+
+.roadmap {
+    color: $oscuro;
+    width: 150px;
+    height: 52px;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    right: 550px;
+    z-index: 13;
+}
+
+.login {
+    background-color: red;
+    width: 80px;
+    height: 52px;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 15;
+}
