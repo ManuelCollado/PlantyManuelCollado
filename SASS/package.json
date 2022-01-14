@@ -1,5 +1,5 @@
 {
-  "name": "planty---coder",
+  "name": "sass",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,10 @@
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
 
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ManuelCollado/PlantyManuelCollado.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ManuelCollado/PlantyManuelCollado/issues"
-  },
-  "homepage": "https://github.com/ManuelCollado/PlantyManuelCollado#readme"
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
 }
